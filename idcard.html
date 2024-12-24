@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker ID Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f0f0f;
+            color: #00ff00;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .id-card {
+            width: 300px;
+            height: 200px;
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background: linear-gradient(145deg, #111, #222);
+            box-shadow: 0 5px 15px rgba(0, 255, 0, 0.3);
+        }
+        .id-card .header {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .id-card .profile {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .id-card .profile img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid #00ff00;
+        }
+        .id-card .profile-info {
+            flex-grow: 1;
+        }
+        .id-card .profile-info p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .id-card .footer {
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hacker ID Card 1 -->
+    <div class="id-card">
+        <div class="header">Hacker ID</div>
+        <div class="profile">
+            <img src="https://iili.io/2NDnw0b.jpg" alt="Profile Picture">
+            <div class="profile-info">
+                <p><strong>Name:</strong> YOKOTO_SAIBA</p>
+                <p><strong>Bidang:</strong> HACKING & CODING</p>
+                <p><strong>bounty:</strong> Rp 700.000.000 </p>
+            </div>
+        </div>
+        <div class="footer"> HACKING </div>
+    </div>
+
+    <!-- Hacker ID Card 2 -->
+    <div class="id-card">
+        <div class="header">Hacker ID</div>
+        <div class="profile">
+            <img src="https://iili.io/2O8TAJV.jpg" alt="Profile Picture">
+            <div class="profile-info">
+                <p><strong>Name:</strong> ItsMeRall</p>
+                <p><strong>Bidang:</strong> Coding</p>
+                <p><strong>bounty:</strong> Rp 5.000.000 </p>
+            </div>
+        </div>
+        <div class="footer">CODING</div>
+    </div>
+</body>
+</html>
